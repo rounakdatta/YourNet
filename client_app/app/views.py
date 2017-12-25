@@ -50,7 +50,7 @@ def fetch_posts():
     resp = requests.get(CONNECTED_NODE_CHAIN_ADDRESS)
     if resp.status_code == 200:
         content = []
-        chain = json.loads(resp.content)
+        chain = json.loads(resp.content.decode('utf-8'))
         for block in chain["chain"]:
             for tx in block["transactions"]:
                 # Adding just for visiblity

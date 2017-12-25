@@ -70,6 +70,13 @@ The long run features to implement will be decided unanimously by the community,
 - Reward system for user generating valuable content based on appreciation by the community.
 - Ability to share your data for different academic or proprietary purposes and get compensated accordingly.
 
+## Start Using YourNet
+
+$ **make -j2**
+
+This will set up the blockchain server on your PC.
+
+You can open the then-showed link (e.g. http://192.168.1.106:5000/) to set up multiple clients across the same network.
 
 ## Phases
 
